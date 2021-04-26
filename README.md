@@ -67,7 +67,7 @@ function get_swap_price(address from, address to, uint amount) public view retur
   }
 ```
 The Initial balance of the contract for both tokens is 100.
-`get_swap_price()` calculates the token price using the contract token balance. This method wil
+`get_swap_price()` calculates the token price using the contract token balance.
 ```solidity
 (amount * IERC20(to).balanceOf(address(this)))/IERC20(from).balanceOf(address(this))
 ```
