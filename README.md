@@ -57,7 +57,8 @@ You might want to read these articles before moving to the solution:
 1. [ERC20 Approve/Allow Explained](https://medium.com/ethex-market/erc20-approve-allow-explained-88d6de921ce9)
 2. [How does “swap” work between ERC20 tokens?](https://ethereum.stackexchange.com/a/92523/71430)
 
-###Solution:
+### Solution:
+
 To solve this Level you only have to focus on this method:
 
 ```solidity
